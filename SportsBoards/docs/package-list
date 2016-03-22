@@ -1,0 +1,7 @@
+com.sportsboards2d.activities
+com.sportsboards2d.boards
+com.sportsboards2d.db.objects
+com.sportsboards2d.db.parsing
+com.sportsboards2d.launcher
+com.sportsboards2d.sprites
+com.sportsboards2d.util

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:gSnake="http://gSnake.glowwormapps.com" android:title="Grid"
+	android:key="screen" android:name="com.glowwormapps.gSnake.screen">
+	<PreferenceCategory android:title="Grid">
+
+		<com.glowwormapps.gSnake.SeekBarPreference
+			android:key="screen_width" android:title="Grid Size"
+			android:summary="The size of the grid in snake units"
+			android:defaultValue="12" android:max="30" gSnake:min="5"
+			gSnake:unitsLeft="" gSnake:unitsRight="" />
+		<ListPreference android:title="Maze"
+			android:summary="Where bricks appear on the grid" android:key="maze_type"
+			android:defaultValue="No Maze" android:entries="@array/maze_type"
+			android:entryValues="@array/maze_type" />
+	</PreferenceCategory>
+</PreferenceScreen>

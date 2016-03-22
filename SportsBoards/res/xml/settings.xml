@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+
+       xmlns:android="http://schemas.android.com/apk/res/android">
+       
+	<PreferenceCategory	
+	
+		android:title="@string/line_settings">
+		
+		<CheckBoxPreference
+                android:key="@string/lineEnabled"
+                android:title="@string/line_enable"
+                android:summary="@string/line_enable_description" />
+                
+        <ListPreference
+        		android:dependency="lineEnabled"
+        		android:key="@string/rTeamLineColor"
+        		android:title="@string/rTeamLineColor_title"
+        		android:summary="@string/rTeamLineColor_description"
+        		android:entries="@array/colors"
+        		android:entryValues="@array/color_values" />
+        		
+       	<ListPreference
+       			android:dependency="lineEnabled"
+        		android:key="@string/bTeamLineColor"
+        		android:title="@string/bTeamLineColor_title"
+        		android:summary="@string/bTeamLineColor_description"
+        		android:entries="@array/colors"
+        		android:entryValues="@array/color_values" />
+        		
+                
+	</PreferenceCategory>
+	
+	<PreferenceCategory
+	
+		android:title="@string/player_settings">
+		
+		<ListPreference
+			android:key="@string/largePlayers"
+			android:title="@string/player_size"
+			android:summary="@string/player_size_description" 
+			android:entries="@array/player_sizes"
+			android:entryValues="@array/player_sizes_values" />
+		
+		<CheckBoxPreference
+                android:key="@string/player_info_display"
+                android:title="@string/player_info_display_title"
+                android:summary="@string/player_info_display_description" />
+                
+        <ListPreference
+        		android:dependency="player_info_display"
+        		android:key="@string/display_when"
+        		android:title="@string/display_when_title"
+        		android:summary="@string/display_when_description"
+        		android:entries="@array/display_when"
+        		android:entryValues="@array/display_when_values" />
+        		
+		<ListPreference
+        		android:dependency="player_info_display"
+        		android:key="@string/display_what"
+        		android:title="@string/display_what_title"
+        		android:summary="@string/display_what_description"
+        		android:entries="@array/display_what"
+        		android:entryValues="@array/display_what_values" />
+	
+	</PreferenceCategory>
+
+	<PreferenceCategory
+	
+		android:title="@string/app_settings">
+		
+		<!-- <ListPreference
+				android:key="@string/default_sport"
+				android:title="@string/default_sport"
+				android:summary="@string/default_sport_description" 
+				android:entries="@array/boards"
+                android:entryValues="@array/boards" />-->
+	
+		<ListPreference 
+				android:key="@string/menuTextColor"
+				android:title="@string/menuTextColor_title"
+				android:summary="@string/menuTextColor_description"
+				android:entries="@array/colors"
+				android:entryValues="@array/color_values" />
+	
+	</PreferenceCategory>
+
+</PreferenceScreen>

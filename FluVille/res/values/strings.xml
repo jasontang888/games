@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FluVille</string>
+    <string name="weekly_news_title">FluVille Weekly News</string>
+    <string name="cdc_feeds_title">CDC Information Feeds</string>
+    <string name="welcome">Welcome to FluVille!\nAs the mayor of FluVille, your job\nis to keep your residents healthly\nand reduce the spread of the flu\nthroughout the population.</string>
+    <string name="control_instructions">Use the controls on the right side of\nthe screen to keep the spread of the\nflu contained.</string>
+    <string name="immunization_benefits">CDC recommends a yearly flu vaccine as the first\nand most important step in protecting\nagainst flu viruses.</string>
+    <string name="immunization_instructions">Tap on a resident to immunize them.\nThey will be enclosed in a green bubble to\nidentify that they are safe from infection.</string>
+    <string name="sanitizer_benefits">Washing your hands often will help\nprotect you from germs. If soap and water are not\navailable, use an alcohol-based hand rub.</string>
+    <string name="sanitizer_instructions">Tap on a resident to provide them with\nhand sanitizer. Hand sanitizer protects them for\n12 hours represented by a number to\nthe left of the resident.</string>
+    <string name="sponge_usage">Germs are often spread when a person\ntouches something that is contaminated\nwith germs and then touches his\nor her eyes, nose, or mouth.</string>
+    <string name="sponge_instructions">Tap a contaminated building\nto clean the building and reduce the chance of\ninfections within that building.</string>
+    <string name="send_residents_home_reason">If possible, stay home from work, school, and\nerrands when you are sick.\nYou will help prevent those around you\nfrom getting sick.</string>
+    <string name="send_residents_home_instructions">Tap on a resident to send them home and keep\nthem from infecting other residents on\nthe streets, in their work place, or in the school.\nInfected residents will stay home for\nthe rest of the day. Non-infected residents\nwill go back to work.</string>
+    <string name="infected_person_warning">Infected Resident!\n\nPeople with flu can spread it to\nothers up to about 6 feet away.\nFlu carriers are contagious from one day\nbefore showing symptoms to 5-7 days after infection.\nInfected residents are enclosed in a red bubble to\nidentify that they are contagious.</string>
+    <string name="infected_person_instructions">Make sure that residents around the infected\nresident are immunized or\nhave been given hand sanitizer.\nSend the infected resident home as\nsoon as possible.</string>
+    <string name="infected_building_warning">Infected Building!\n\nWhen an infected resident reaches their destination\nthe destination building becomes infected.\nAll residents that are in the building or\nenter the building at that point\nbecome infected unless immunized or protected\nwith hand sanitizer.</string>
+    <string name="infected_building_instructions">Select the cleaning bucket and sponge control\nand tap a contaminated building to clean the\nbuilding and reduce the chance of\ninfections within that building.</string>
+    <string name="limited_supplies_warning">The flu vaccine and hand sanitizer are rationed out\nand renewed on a daily basis for hand sanitizer\nand every other day for the vaccine.</string>
+    <string name="feeds_ready_notification">CDC News feeds are now available. Tap on one of the flyers above or use the menu button to browse the feeds.</string>
+    <string name="skip_messages_already_viewed">Would you like to skip any information messages that you\'ve already seen?</string>
+    <string name="disclaimer">The use of data and content from the U.S. Centers for Disease Control and Prevention (CDC) or links to CDC.gov in an application or web site does not indicate any form of endorsement or approval from CDC, the National Center for Immunization and Respiratory Diseases, the Influenza Division or the U.S. Department of Health and Human Services.  Any data manipulations, representations, and/or stated or implied conclusions included in such applications or web sites have not been reviewed, confirmed or approved by the CDC for scientific accuracy.</string>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:gSnake="http://gSnake.glowwormapps.com" 
+		android:title="User Interface"
+		android:key="ui"
+		android:name="com.glowwormapps.gSnake.user_interface"
+		>
+	<PreferenceCategory
+		android:title="User Interface">
+  <CheckBoxPreference 
+			android:key="print_score"
+			android:summary="Display the score on screen"
+			android:title="Show Score" 
+			android:defaultValue="true"/>
+	    <CheckBoxPreference 
+			android:key="print_gem_timers"
+			android:summary="Display the time remaining for each gem"
+			android:title="Show Gem Time" 
+			android:defaultValue="true"/>
+          </PreferenceCategory>
+	</PreferenceScreen>

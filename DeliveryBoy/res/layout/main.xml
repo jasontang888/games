@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">  
+  
+    <ImageView
+		android:src="@drawable/background"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent" />   
+   
+   <LinearLayout	
+		android:orientation="vertical"
+		android:layout_margin="10dp"	
+		android:layout_width="fill_parent"	
+		android:layout_height="fill_parent" >
+		
+	    <TextView 
+	    	android:text="START GAME " 
+	    	android:layout_gravity="right"
+	        android:id="@+id/start" 
+			style="@style/MenuFont" />
+	     
+	    <TextView 
+	    	android:text="SOUND: ON " 
+	    	android:id="@+id/sound"
+			style="@style/MenuFont" />
+
+	    <TextView 
+	    	android:text="SETTINGS " 
+	    	android:id="@+id/settings" 
+			style="@style/MenuFont" />
+
+	    <TextView 
+	    	android:text="SCORE " 
+	    	android:id="@+id/score" 
+			style="@style/MenuFont" />
+	    
+	    <TextView
+	        android:text="ABOUT " 
+	        android:id="@+id/about" 
+			style="@style/MenuFont" />  
+			
+		<TextView
+	        android:text="EXIT " 
+	        android:id="@+id/exit" 
+			style="@style/SystemFont" /> 
+			            
+  	</LinearLayout>
+</RelativeLayout>

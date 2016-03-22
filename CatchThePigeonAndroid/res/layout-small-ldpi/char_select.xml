@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<AbsoluteLayout
+		android:layout_height="fill_parent"
+		android:id="@+id/absoluteLayout1"
+		android:layout_width="fill_parent"
+		android:background="@drawable/mosaic_pigeon_ima_selected_large"
+		android:layout_x="0dip"
+		android:layout_y="0dip">
+		<ImageButton
+			android:layout_height="30dip"
+			android:id="@+id/audio_button_char"
+			android:layout_width="30dip"
+			android:background="@drawable/mosaic_pigeon_icon_audio_icon"
+			android:layout_x="60dip"
+			android:layout_y="280dip"></ImageButton>
+		<ImageButton
+			android:layout_width="30dip"
+			android:id="@+id/back_button_char"
+			android:layout_height="30dip"
+			android:background="@drawable/mosaic_pigeon_img_layer_back"
+			android:layout_x="15dip"
+			android:layout_y="280dip"></ImageButton>
+		<ImageButton
+			android:layout_height="30dip"
+			android:id="@+id/help_button_char"
+			android:layout_width="30dip"
+			android:background="@drawable/mosaic_pigeon_img_layer_help"
+			android:layout_x="407dip"
+			android:layout_y="210dip"></ImageButton>
+		<ImageButton
+			android:id="@+id/selectFigeon"
+			android:background="@drawable/mosaic_pigeon_ima_selected_figeon"
+			android:layout_width="90dip"
+			android:layout_height="93dip"
+			android:layout_x="83dip"
+			android:layout_y="58dip"></ImageButton>
+		<ImageButton
+			android:id="@+id/selectFigean"
+			android:background="@drawable/mosaic_pigeon_ima_selected_figean"
+			android:layout_width="90dip"
+			android:layout_height="93dip"
+			android:layout_x="190dip"
+			android:layout_y="33dip"></ImageButton>
+		<ImageButton
+			android:id="@+id/selectSigeon"
+			android:background="@drawable/mosaic_pigeon_ima_selected_sigeon"
+			android:layout_width="90dip"
+			android:layout_height="93dip"
+			android:layout_x="301dip"
+			android:layout_y="58dip"></ImageButton>
+
+	</AbsoluteLayout>
+</AbsoluteLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<forms>
+	<form>
+		<name>DEFAULT</name>
+		<ball x="488" y="276" />
+		<pEntry>
+			<pID id="0" />
+			<team>RED</team>
+			<coords x="518" y="177" />
+		</pEntry>
+
+		<pEntry>
+			<pID id="0" />
+			<team>RED</team>
+			<coords x="581" y="323" />
+		</pEntry>
+
+		<pEntry>
+			<pID id="0" />
+			<team>RED</team>
+			<coords x="397" y="229" />
+		</pEntry>
+		<pEntry>
+			<pID id="0" />
+			<team>RED</team>
+			<coords x="440" y="276" />
+		</pEntry>
+		<pEntry>
+			<pID id="0" />
+			<team>RED</team>
+			<coords x="457" y="370" />
+		</pEntry>
+
+
+
+		<pEntry>
+			<pID id="0" />
+			<team>BLUE</team>
+			<coords x="581" y="229" />
+		</pEntry>
+		<pEntry>
+			<pID id="0" />
+			<team>BLUE</team>
+			<coords x="538" y="276" />
+		</pEntry>
+
+		<pEntry>
+			<pID id="0" />
+			<team>BLUE</team>
+			<coords x="518" y="370" />
+		</pEntry>
+		<pEntry>
+			<pID id="0" />
+			<team>BLUE</team>
+			<coords x="457" y="177" />
+		</pEntry>
+
+		<pEntry>
+			<pID id="0" />
+			<team>BLUE</team>
+			<coords x="397" y="323" />
+		</pEntry>
+	</form>
+</forms>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<players>
+	<player>
+		<pID id="0" />
+		<jNum num="0" />
+		<type>D</type>
+		<pName>DEFAULT</pName>
+	</player>
+</players>

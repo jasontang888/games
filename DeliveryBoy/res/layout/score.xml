@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	android:id="@+id/parent"
+  	xmlns:android="http://schemas.android.com/apk/res/android"
+  	android:layout_width="fill_parent"
+  	android:layout_height="fill_parent">  
+  
+	<ImageView
+		android:src="@drawable/background_score"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" />
+	
+	<LinearLayout	
+		android:orientation="vertical"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent" >
+
+	    <TextView 
+	    	android:text="  " 
+			style="@style/ScoreFont" />
+
+	    <TextView 
+	    	android:text="Player 1 - 10000" 
+	        android:id="@+id/sc1"
+			style="@style/ScoreFont" /> 
+	    <TextView 
+	    	android:text="Player 2 - 9000" 
+	        android:id="@+id/sc2"
+			style="@style/ScoreFont" />
+	    <TextView 
+	    	android:text="Player 3 - 8000" 
+	        android:id="@+id/sc3"
+			style="@style/ScoreFont" />
+	    <TextView 
+	    	android:text="Player 4 - 7000" 
+	        android:id="@+id/sc4"
+			style="@style/ScoreFont" />
+	    <TextView 
+	    	android:text="Player 5 - 6000" 
+	        android:id="@+id/sc5"
+			style="@style/ScoreFont" />
+	    <TextView 
+	    	android:text="Player 6 - 5000" 
+	        android:id="@+id/sc6"
+			style="@style/ScoreFont" />
+			    
+		<TextView
+	        android:text="BACK  " 
+	        android:id="@+id/back" 
+			style="@style/SystemFont" />  
+			   
+  	</LinearLayout>
+</RelativeLayout>

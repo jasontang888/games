@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tutorial">Tutorial</string>
+    <string name="settings">Settings</string>
+    <string name="restart_game">Restart Game</string>
+    
+    <string name="about_category">About</string>
+    <string name="about">About Pax</string>
+    <string name="about_summary">Would you like to know more?</string>
+    
+    <string name="upgrade">Upgrade</string>
+    <string name="upgrade_summary">Download and install the latest version</string>
+    
+    
+    <!-- "About" screen strings -->
+    
+    <string name="app_name">Pax</string>
+    <string name="about_subtitle">a simple real-time-strategy game</string>
+    <string name="version"></string> <!-- Updated at runtime -->
+    
+    <string name="authors_header">Credits</string>
+    <string name="authors">Greg McNew\n
+    					   Cam Smith</string>
+    
+    
+    <!--<string name="game_origin">Based on Pax Britannica, a PC game designed and programmed by Renaud Bédard, Henk Boom, and Matthew Gallant of No Fun Games.</string>-->
+    <string name="game_origin">Based on Pax Britannica, a game by Renaud Bédard, Henk Boom, Matthew Gallant, Daniel Burton, and Ben Abraham of No Fun Games.</string>
+    <string name="game_origin_url">paxbritannica.henk.ca</string>
+    
+    <string name="game_open_source">This game is open-source!</string>
+    <string name="game_open_source_url">github.com/gmcnew/pax</string>
+    
+    
+    <!-- General settings strings -->
+    
+    <string name="general_settings">Settings</string>
+    
+    <string name="sound">Sound</string>
+    <string name="sound_summary">Experimental</string>
+    <string name="benchmark_mode">Benchmark mode</string>
+    <string name="benchmark_mode_summary">Experimental</string>
+    
+    <string name="ai_difficulty">AI difficulty</string>
+    <string-array name="ai_difficulty_array">
+        <item>@string/ai_difficulty_braindead</item>
+        <item>@string/ai_difficulty_easy</item>
+        <item>@string/ai_difficulty_medium</item>
+        <item>@string/ai_difficulty_hard</item>
+        <item>@string/ai_difficulty_very_hard</item>
+        <item>@string/ai_difficulty_insane</item>
+        <item>@string/ai_difficulty_cheater</item>
+    </string-array>
+    
+    <string name="ai_difficulty_braindead">Braindead</string>
+    <string name="ai_difficulty_easy">Easy</string>
+    <string name="ai_difficulty_medium">Medium</string>
+    <string name="ai_difficulty_hard">Hard</string>
+    <string name="ai_difficulty_very_hard">Very hard</string>
+    <string name="ai_difficulty_insane">Insane</string>
+    <string name="ai_difficulty_cheater">Cheating Scum</string>
+    
+    <string name="game_speed">Production speed</string>
+    <string-array name="game_speed_array">
+        <item>@string/game_speed_normal</item>
+        <item>@string/game_speed_fast</item>
+        <item>@string/game_speed_insane</item>
+    </string-array>
+    
+    <string name="game_speed_normal">Normal</string>
+    <string name="game_speed_fast">Fast</string>
+    <string name="game_speed_insane">Insane</string>
+    
+    
+    <!-- Graphics settings strings -->
+    
+    <string name="graphics_settings">Graphics</string>
+    
+    <string name="show_ships">Show ships</string>
+    <string name="show_ships_summary">&#8230; and projectiles</string>
+    <string name="show_particles">Show particles</string>
+    <string name="show_fps">Show framerate</string>
+    <string name="show_fps_summary">&#8230; and jitter (in darker text)</string>
+    <string name="show_all_health">Show health for all ships</string>
+    <string name="show_all_health_summary">&#8230; not just factories</string>
+    <string name="show_collision_boxes">Show collision boxes</string>
+    <string name="show_collision_boxes_summary">&#8230; for fighters only</string>
+    <string name="fade_out_intro">Fade out intro</string>
+    
+</resources>

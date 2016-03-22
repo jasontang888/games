@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	android:id="@+id/parent"
+  	xmlns:android="http://schemas.android.com/apk/res/android"
+  	android:layout_width="fill_parent"
+  	android:layout_height="fill_parent">  
+  
+	<ImageView
+		android:src="@drawable/background_about"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" />
+	
+	<LinearLayout	
+		android:orientation="vertical"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent" >
+
+	    <TextView 
+	    	android:text="  " 
+			style="@style/SystemFont" />
+
+	    <TextView 
+	    	android:text="Use your car to deliver packages \n to the houses.\n\n Enjoy !" 
+			style="@style/AboutFont" /> 
+			    
+		<TextView
+	        android:text="BACK  " 
+	        android:id="@+id/back" 
+			style="@style/SystemFont" />  
+			   
+  	</LinearLayout>
+</RelativeLayout>

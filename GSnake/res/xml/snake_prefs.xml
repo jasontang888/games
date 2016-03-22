@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:gSnake="http://gSnake.glowwormapps.com" 
+		android:title="Snake"
+		android:key="snake_speed"
+		android:name="com.glowwormapps.gSnake.snake_speed"
+		>
+	<PreferenceCategory
+		android:title="Snake">
+        <com.glowwormapps.gSnake.SeekBarPreference
+            	android:key="velocity"
+                android:title="Velocity"
+                android:summary="Adjust the snake's speed"
+                android:defaultValue="400"
+                android:max="600"
+                gSnake:min="20"
+           		gSnake:unitsLeft=""
+                gSnake:unitsRight="" />
+
+	 <com.glowwormapps.gSnake.SpeedButtonsPreference  
+                android:key="velocity"
+                android:orientation="vertical" 
+                android:defaultValue="100"
+                android:title="Velocity" />  
+	
+	   <com.glowwormapps.gSnake.SeekBarPreference
+            	android:key="start_length"
+                android:title="Starting Length"
+                android:summary="The initial size of the snake"
+                android:defaultValue="6"
+                android:max="20"
+                gSnake:min="1"
+           		gSnake:unitsLeft=""
+                gSnake:unitsRight="" />
+	   	   <com.glowwormapps.gSnake.SeekBarPreference
+            	android:key="fruit_gain"
+                android:title="Weight Gain"
+                android:summary="The length gain for each piece of fruit"
+                android:defaultValue="1"
+                android:max="10"
+                gSnake:min="0"
+           		gSnake:unitsLeft=""
+                gSnake:unitsRight="" />
+          </PreferenceCategory>
+	</PreferenceScreen>

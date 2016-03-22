@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<forms>	
+	<form>
+		<name>DEFAULT</name>
+		<ball x="487" y="270" />
+		<pEntry>
+			<pID id="0" />
+			<team>BLUE</team>
+			<coords x="897" y="264" />
+		</pEntry>
+		<pEntry>
+			<pID id="0" />
+			<team>BLUE</team>
+			<coords x="740" y="90" />
+		</pEntry>
+		<pEntry>
+			<pID id="0" />
+			<team>BLUE</team>
+			<coords x="740" y="210" />
+		</pEntry>
+		<pEntry>
+			<pID id="0" />
+			<team>BLUE</team>
+			<coords x="740" y="330" />
+		</pEntry>
+		<pEntry>
+			<pID id="0" />
+			<team>BLUE</team>
+			<coords x="740" y="450" />
+		</pEntry>
+		<pEntry>
+			<pID id="0" />
+			<team>BLUE</team>
+			<coords x="630" y="90" />
+		</pEntry>
+		<pEntry>
+			<pID id="0" />
+			<team>BLUE</team>
+			<coords x="630" y="210" />
+		</pEntry>
+		<pEntry>
+			<pID id="0" />
+			<team>BLUE</team>
+			<coords x="630" y="330" />
+		</pEntry>
+		<pEntry>
+			<pID id="0" />
+			<team>BLUE</team>
+			<coords x="630" y="450" />
+		</pEntry>
+		<pEntry>
+			<pID id="0" />
+			<team>BLUE</team>
+			<coords x="530" y="210" />
+		</pEntry>
+		<pEntry>
+			<pID id="0" />
+			<team>BLUE</team>
+			<coords x="530" y="330" />
+		</pEntry>
+	
+	
+		<pEntry>
+			<pID id="0" />
+			<team>RED</team>
+			<coords x="83" y="270" />
+		</pEntry>
+		<pEntry>
+			<pID id="0" />
+			<team>RED</team>
+			<coords x="235" y="90" />
+		</pEntry>
+		<pEntry>
+			<pID id="0" />
+			<team>RED</team>
+			<coords x="235" y="210" />
+		</pEntry>
+		<pEntry>
+			<pID id="0" />
+			<team>RED</team>
+			<coords x="235" y="330" />
+		</pEntry>
+		<pEntry>
+			<pID id="0" />
+			<team>RED</team>
+			<coords x="235" y="450" />
+		</pEntry>
+		<pEntry>
+			<pID id="0" />
+			<team>RED</team>
+			<coords x="345" y="90" />
+		</pEntry>
+		<pEntry>
+			<pID id="0" />
+			<team>RED</team>
+			<coords x="345" y="210" />
+		</pEntry>
+		<pEntry>
+			<pID id="0" />
+			<team>RED</team>
+			<coords x="345" y="330" />
+		</pEntry>
+		<pEntry>
+			<pID id="0" />
+			<team>RED</team>
+			<coords x="345" y="450" />
+		</pEntry>
+		<pEntry>
+			<pID id="0" />
+			<team>RED</team>
+			<coords x="425" y="210" />
+		</pEntry>
+		<pEntry>
+			<pID id="0" />
+			<team>RED</team>
+			<coords x="425" y="330" />
+		</pEntry>
+	</form>
+<!--  
+	<form>
+		<name>GOALKICK</name>
+		<ball x="487" y="270" />
+		<pEntry>
+			<team>BLUE</team>
+			<type>GK</type>
+			<pName>NATE</pName>
+			<coords x="897" y="264" />
+		</pEntry>
+		<pEntry>
+			<team>BLUE</team>
+			<type>GK</type>
+			<pName>NATE</pName>
+			<coords x="740" y="90" />
+		</pEntry>
+		<pEntry>
+			<team>BLUE</team>
+			<type>GK</type>
+			<pName>NATE</pName>
+			<coords x="740" y="210" />
+		</pEntry>
+		<pEntry>
+			<team>BLUE</team>
+			<type>GK</type>
+			<pName>NATE</pName>
+			<coords x="740" y="330" />
+		</pEntry>
+		<pEntry>
+			<team>BLUE</team>
+			<type>GK</type>
+			<pName>NATE</pName>
+			<coords x="740" y="450" />
+		</pEntry>
+		<pEntry>
+			<team>BLUE</team>
+			<type>GK</type>
+			<pName>NATE</pName>
+			<coords x="630" y="90" />
+		</pEntry>
+		<pEntry>
+			<team>BLUE</team>
+			<type>GK</type>
+			<pName>NATE</pName>
+			<coords x="630" y="210" />
+		</pEntry>
+		<pEntry>
+			<team>BLUE</team>
+			<type>GK</type>
+			<pName>NATE</pName>
+			<coords x="630" y="330" />
+		</pEntry>
+		<pEntry>
+			<team>BLUE</team>
+			<type>GK</type>
+			<pName>NATE</pName>
+			<coords x="630" y="450" />
+		</pEntry>
+		<pEntry>
+			<team>BLUE</team>
+			<type>GK</type>
+			<pName>NATE</pName>
+			<coords x="530" y="210" />
+		</pEntry>
+		<pEntry>
+			<team>BLUE</team>
+			<type>GK</type>
+			<pName>NATE</pName>
+			<coords x="530" y="330" />
+		</pEntry>
+	
+	
+		<pEntry>
+			<team>RED</team>
+			<type>GK</type>
+			<pName>NATE</pName>
+			<coords x="83" y="270" />
+		</pEntry>
+		<pEntry>
+			<team>RED</team>
+			<type>GK</type>
+			<pName>NATE</pName>
+			<coords x="235" y="90" />
+		</pEntry>
+		<pEntry>
+			<team>RED</team>
+			<type>GK</type>
+			<pName>NATE</pName>
+			<coords x="235" y="210" />
+		</pEntry>
+		<pEntry>
+			<team>RED</team>
+			<type>GK</type>
+			<pName>NATE</pName>
+			<coords x="235" y="330" />
+		</pEntry>
+		<pEntry>
+			<team>RED</team>
+			<type>GK</type>
+			<pName>NATE</pName>
+			<coords x="235" y="450" />
+		</pEntry>
+		<pEntry>
+			<team>RED</team>
+			<type>GK</type>
+			<pName>NATE</pName>
+			<coords x="345" y="90" />
+		</pEntry>
+		<pEntry>
+			<team>RED</team>
+			<type>GK</type>
+			<pName>NATE</pName>
+			<coords x="345" y="210" />
+		</pEntry>
+		<pEntry>
+			<team>RED</team>
+			<type>GK</type>
+			<pName>NATE</pName>
+			<coords x="345" y="330" />
+		</pEntry>
+		<pEntry>
+			<team>RED</team>
+			<type>GK</type>
+			<pName>NATE</pName>
+			<coords x="345" y="450" />
+		</pEntry>
+		<pEntry>
+			<team>RED</team>
+			<type>GK</type>
+			<pName>NATE</pName>
+			<coords x="425" y="210" />
+		</pEntry>
+		<pEntry>
+			<team>RED</team>
+			<type>GK</type>
+			<pName>NATE</pName>
+			<coords x="425" y="330" />
+		</pEntry>
+	</form>
+-->
+</forms>

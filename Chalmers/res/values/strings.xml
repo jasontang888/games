@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="app_name">Eskimo Tower Defense LITE</string>
+    <string name="hello">Hello World!</string>
+    <string name="splash">The screen</string>       
+
+<color name="black">#000</color>
+</resources>

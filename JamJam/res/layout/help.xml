@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+android:id="@+id/widget32"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:scrollbars="vertical" android:background="@drawable/helpbg">
+
+<Button
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_marginLeft="2px" android:layout_marginTop="2px" android:background="@layout/back_button" android:id="@+id/GoBack">
+</Button>
+
+
+<ScrollView android:id="@+id/ScrollView01"
+ android:layout_width="fill_parent"
+ android:layout_marginLeft="5dp" android:layout_marginRight="5dp" android:layout_marginTop="100dp" android:layout_height="160dp">
+ <TextView android:id="@+id/TEXT_VIEW"
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:textColor="@color/white" android:textSize="20sp" android:text="Are you the one that will change history? 
+Can you save the last male Dodo bird on the planet and save the entire race from EXTINCTION? 
+Control the bird by pushing on the top or the bottom of the screen. 
+This game was developed during 2011 Global Game Jam 
+which is an event where you develop a game in 48 hours. 
+Avoid walls and stop signs but don't forget to pick up 
+dodo eggs and stop watches.
+"/>
+ 
+</ScrollView>
+
+
+</RelativeLayout>

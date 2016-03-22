@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      android:versionCode="2"
+      android:versionName="2.0" package="com.glowwormapps.gSnake">
+<uses-sdk android:minSdkVersion="7"></uses-sdk>
+<uses-permission android:name="android.permission.VIBRATE"></uses-permission>
+<uses-permission android:name="android.permission.WAKE_LOCK"></uses-permission>
+<uses-feature android:name="android.hardware.sensor.accelerometer" android:required="true"></uses-feature>
+      <application android:icon="@drawable/icon" android:label="@string/app_name" android:debuggable="false" android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+        <activity android:name="GravitoSnakePlayActivity" android:label="@string/app_name" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+       	<activity android:name=".MasterPreferenceActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar.Fullscreen"></activity>
+       	<activity android:name=".SnakePreferenceActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+       	    <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+       	</activity>
+       	<activity android:name=".GridPreferenceActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+       	    <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+       	</activity>
+       	       	<activity android:name=".GemPreferenceActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+       	    <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+       	</activity>
+       	       	<activity android:name=".UIPreferenceActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+       	    <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+       	</activity>
+    </application>
+</manifest> 

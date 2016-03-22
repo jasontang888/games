@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+
+	package="com.sportsboards2d" android:versionCode="8"
+	android:versionName="1.8">
+	<application android:icon="@drawable/icon" android:label="@string/app_name">
+
+		<activity android:name="com.sportsboards2d.launcher.Launcher"
+
+			android:label="@string/app_name" android:screenOrientation="landscape">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+
+		<activity android:name="com.google.ads.AdActivity"
+			android:configChanges="keyboard|keyboardHidden|orientation" />
+		<activity android:name="com.sportsboards2d.boards.SoccerBoard"
+			android:screenOrientation="landscape" />
+		<activity android:name="com.sportsboards2d.boards.BBallBoard"
+			android:screenOrientation="landscape" />
+		<activity android:name="com.sportsboards2d.boards.HockeyBoard"
+			android:screenOrientation="landscape" />
+		<activity android:name="com.sportsboards2d.boards.RingetteBoard"
+			android:screenOrientation="landscape" />
+		<activity android:name="com.sportsboards2d.boards.FootballBoard"
+			android:screenOrientation="landscape" />
+
+
+		<activity android:name="com.sportsboards2d.activities.SaveForm"
+			android:screenOrientation="landscape" />
+		<activity android:name="com.sportsboards2d.activities.DeleteForm"
+			android:screenOrientation="landscape" />
+		<activity android:name="com.sportsboards2d.activities.LoadForm"
+			android:screenOrientation="landscape" />
+		<activity android:name="com.sportsboards2d.activities.CreatePlayer"
+			android:screenOrientation="landscape" />
+		<activity android:name="com.sportsboards2d.activities.ViewPlayers"
+			android:screenOrientation="landscape" />
+		<activity android:name="com.sportsboards2d.activities.SettingsViewer"
+			android:screenOrientation="landscape" />
+		<activity android:name="com.sportsboards2d.activities.SelectPlayer"
+			android:screenOrientation="landscape" />
+
+	</application>
+
+	<supports-screens android:largeScreens="true" />
+	<uses-sdk android:targetSdkVersion="8" android:minSdkVersion="8" />
+
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<uses-permission android:name="android.permission.WAKE_LOCK" />
+
+</manifest> 

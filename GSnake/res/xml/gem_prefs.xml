@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:gSnake="http://gSnake.glowwormapps.com" 
+		android:title="Gems"
+		android:key="gems"
+		android:name="com.glowwormapps.gSnake.gems"
+		>
+	<PreferenceCategory
+		android:title="Gems">
+
+     	<CheckBoxPreference 
+			android:key="gems_enabled"
+			android:summary="Should gems appear in the game"
+			android:title="Enabled" 
+			android:defaultValue="true"
+		/>
+		
+     <com.glowwormapps.gSnake.SeekBarPreference
+            	android:key="gem_probability"
+                android:title="Frequency"
+                android:summary="How many turns between gems appearing"
+                android:defaultValue="50"
+                android:max="100"
+                gSnake:min="10"
+           		gSnake:unitsLeft=""
+                gSnake:unitsRight="" />
+	
+	     <com.glowwormapps.gSnake.SeekBarPreference
+            	android:key="gem_life"
+                android:title="Lifetime"
+                android:summary="Number of turns before a gem vanishes"
+                android:defaultValue="20"
+                android:max="75"
+                gSnake:min="5"
+           		gSnake:unitsLeft=""
+                gSnake:unitsRight="" />
+          </PreferenceCategory>
+	</PreferenceScreen>

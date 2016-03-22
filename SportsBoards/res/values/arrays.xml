@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <resources>
+    
+        <string-array name="boards">
+        	<item>Basketball</item>
+        	<item>Football</item>
+        	<item>Hockey</item>
+        	<item>Soccer</item>
+        </string-array>
+        
+        <string-array name="colors">
+        	<item>White</item>
+        	<item>Black</item>
+	    	<item>Red</item>
+	    	<item>Green</item>
+	        <item>Blue</item>
+	        <item>Orange</item>
+	        <item>Grey</item>
+	        <item>Yellow</item>
+	    </string-array>
+	    
+	    <string-array name="color_values">
+	    	<item>0</item>
+	    	<item>1</item>
+	    	<item>2</item>
+	    	<item>3</item>
+	    	<item>4</item>
+	    	<item>5</item>
+	    	<item>6</item>
+	    	<item>7</item>
+	    </string-array>
+	    
+	    <string-array name="player_sizes">
+	    	<item>Small</item>
+	    	<item>Large</item>
+	    </string-array>
+	    
+	    <string-array name="player_sizes_values">
+	    	<item>0</item>
+	    	<item>1</item>
+	    </string-array>
+	    
+	    <string-array name="display_when">
+	    	<item>On Touch</item>
+	    	<item>Always</item>
+	    </string-array>
+	    
+	    <string-array name="display_when_values">
+	    	<item>0</item>
+	    	<item>1</item>
+	    </string-array>
+	    
+	    <string-array name="display_what">
+	    	<item>Jersey #, player initials, player position</item>
+	    	<item>Jersey #, player initials</item>
+	    	<item>Jersey #, player position</item>
+	    	<item>Jersey #</item>
+	    	<item>Player initials, player position</item>
+	    	<item>Player initials</item>
+	    	<item>Player position</item>
+	    </string-array>
+	    
+	    <string-array name="display_what_values">
+	    	<item>0</item>
+	    	<item>1</item>
+	    	<item>2</item>
+	    	<item>3</item>
+	    	<item>4</item>
+	    	<item>5</item>
+	    	<item>6</item>
+	    	<item>7</item>
+	    </string-array>
+	    
+	    <string-array name="bball_positions">
+	    	<item>C</item>
+	    	<item>PF</item>
+	    	<item>SF</item>
+	    	<item>SG</item>
+	    	<item>PG</item>
+	    </string-array>
+	    
+	    <string-array name="soccer_positions">
+	    	<item>GK</item>
+	    	<item>ST</item>
+	    	<item>MF</item>
+	    	<item>DF</item>
+	    </string-array>
+	    
+	    <string-array name="hockey_positions">
+	    	<item>G</item>
+	    	<item>LW</item>
+	    	<item>RW</item>
+	    	<item>C</item>
+	    	<item>LD</item>
+	    	<item>RD</item>
+	    </string-array>
+	    
+	    <string-array name="ringette_positions">
+	    	<item>G</item>
+	    	<item>LW</item>
+	    	<item>RW</item>
+	    	<item>C</item>
+	    	<item>LD</item>
+	    	<item>RD</item>
+	    </string-array>
+    
+    </resources>

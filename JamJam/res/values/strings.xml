@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, Start!</string>
+    <string name="app_name">DoDo</string>
+        <string name="splash">The screen</string>       
+
+<color name="black">#000</color>
+<color name="white">#FFF</color>
+</resources>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<forms>
+	<form>
+		<name>DEFAULT</name>
+		<ball x="683" y="283" />
+		<pEntry>
+			<pID id="0" />
+			<team>RED</team>
+			<coords x="626" y="276" />
+		</pEntry>
+
+		<pEntry>
+			<pID id="0" />
+			<team>RED</team>
+			<coords x="651" y="126" />
+		</pEntry>
+
+		<pEntry>
+			<pID id="0" />
+			<team>RED</team>
+			<coords x="651" y="426" />
+		</pEntry>
+		<pEntry>
+			<pID id="0" />
+			<team>RED</team>
+			<coords x="404" y="151" />
+		</pEntry>
+		<pEntry>
+			<pID id="0" />
+			<team>RED</team>
+			<coords x="404" y="401" />
+		</pEntry>
+		<pEntry>	<!-- added this to try to have correct # players -->
+			<pID id="0"/>
+			<team>RED</team>
+			<coords x= "100" y="276"/>
+		</pEntry>
+
+
+		<pEntry>
+			<pID id="0" />
+			<team>BLUE</team>
+			<coords x="726" y="276" />
+		</pEntry>
+		<pEntry>
+			<pID id="0" />
+			<team>BLUE</team>
+			<coords x="701" y="126" />
+		</pEntry>
+
+		<pEntry>
+			<pID id="0" />
+			<team>BLUE</team>
+			<coords x="701" y="426" />
+		</pEntry>
+		<pEntry>
+			<pID id="0" />
+			<team>BLUE</team>
+			<coords x="946" y="151" />
+		</pEntry>
+
+		<pEntry>
+			<pID id="0" />
+			<team>BLUE</team>
+			<coords x="946" y="401" />
+		</pEntry>
+		<pEntry>
+			<pID id="0"/>
+			<team>BLUE</team>
+			<coords x="976" y="276"/>
+		</pEntry>
+	</form>
+</forms>
